@@ -19,6 +19,29 @@
 		DB19F5CC19B82C7300F96414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19F5B419B82C7300F96414 /* UIKit.framework */; };
 		DB19F5D419B82C7300F96414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB19F5D219B82C7300F96414 /* InfoPlist.strings */; };
 		DB19F5D619B82C7300F96414 /* SignupLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5D519B82C7300F96414 /* SignupLoginDemoTests.m */; };
+		DB19F5E219B82C9500F96414 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5E019B82C9500F96414 /* SignUpViewController.m */; };
+		DB19F5E319B82C9500F96414 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB19F5E119B82C9500F96414 /* SignUpViewController.xib */; };
+		DB19F5E919B82DD800F96414 /* textFeild-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F5E619B82DD800F96414 /* textFeild-568h@2x.png */; };
+		DB19F5EA19B82DD800F96414 /* textFeild.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F5E719B82DD800F96414 /* textFeild.png */; };
+		DB19F5EB19B82DD800F96414 /* textFeild@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F5E819B82DD800F96414 /* textFeild@2x.png */; };
+		DB19F5F019B830FC00F96414 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5ED19B830FC00F96414 /* TPKeyboardAvoidingScrollView.m */; };
+		DB19F5F119B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5EF19B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		DB19F5F519B8350F00F96414 /* Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5F419B8350F00F96414 /* Validate.m */; };
+		DB19F5F919B8380900F96414 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5F819B8380900F96414 /* Global.m */; };
+		DB19F5FE19B83B5E00F96414 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F5FC19B83B5E00F96414 /* LoginViewController.m */; };
+		DB19F5FF19B83B5E00F96414 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB19F5FD19B83B5E00F96414 /* LoginViewController.xib */; };
+		DB19F60719B83DC100F96414 /* checkBox-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60119B83DC100F96414 /* checkBox-568h@2x.png */; };
+		DB19F60819B83DC100F96414 /* checkBox.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60219B83DC100F96414 /* checkBox.png */; };
+		DB19F60919B83DC100F96414 /* checkBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60319B83DC100F96414 /* checkBox@2x.png */; };
+		DB19F60A19B83DC100F96414 /* checkBoxActive-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60419B83DC100F96414 /* checkBoxActive-568h@2x.png */; };
+		DB19F60B19B83DC100F96414 /* checkBoxActive.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60519B83DC100F96414 /* checkBoxActive.png */; };
+		DB19F60C19B83DC100F96414 /* checkBoxActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60619B83DC100F96414 /* checkBoxActive@2x.png */; };
+		DB19F61019B846D900F96414 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F60E19B846D900F96414 /* ForgotPasswordViewController.m */; };
+		DB19F61119B846D900F96414 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB19F60F19B846D900F96414 /* ForgotPasswordViewController.xib */; };
+		DB19F61619B84B2C00F96414 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19F61419B84B2C00F96414 /* HomeViewController.m */; };
+		DB19F61719B84B2C00F96414 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB19F61519B84B2C00F96414 /* HomeViewController.xib */; };
+		DB236B201A09E7150070F15A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB236B1E1A09E7150070F15A /* MainViewController.m */; };
+		DB236B211A09E7150070F15A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB236B1F1A09E7150070F15A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +71,38 @@
 		DB19F5D119B82C7300F96414 /* SignupLoginDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SignupLoginDemoTests-Info.plist"; sourceTree = "<group>"; };
 		DB19F5D319B82C7300F96414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB19F5D519B82C7300F96414 /* SignupLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignupLoginDemoTests.m; sourceTree = "<group>"; };
+		DB19F5DF19B82C9500F96414 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		DB19F5E019B82C9500F96414 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		DB19F5E119B82C9500F96414 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		DB19F5E619B82DD800F96414 /* textFeild-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textFeild-568h@2x.png"; sourceTree = "<group>"; };
+		DB19F5E719B82DD800F96414 /* textFeild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textFeild.png; sourceTree = "<group>"; };
+		DB19F5E819B82DD800F96414 /* textFeild@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textFeild@2x.png"; sourceTree = "<group>"; };
+		DB19F5EC19B830FC00F96414 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		DB19F5ED19B830FC00F96414 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		DB19F5EE19B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		DB19F5EF19B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		DB19F5F319B8350F00F96414 /* Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validate.h; sourceTree = "<group>"; };
+		DB19F5F419B8350F00F96414 /* Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validate.m; sourceTree = "<group>"; };
+		DB19F5F719B8380900F96414 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		DB19F5F819B8380900F96414 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		DB19F5FB19B83B5E00F96414 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DB19F5FC19B83B5E00F96414 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DB19F5FD19B83B5E00F96414 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DB19F60119B83DC100F96414 /* checkBox-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBox-568h@2x.png"; sourceTree = "<group>"; };
+		DB19F60219B83DC100F96414 /* checkBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBox.png; sourceTree = "<group>"; };
+		DB19F60319B83DC100F96414 /* checkBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBox@2x.png"; sourceTree = "<group>"; };
+		DB19F60419B83DC100F96414 /* checkBoxActive-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBoxActive-568h@2x.png"; sourceTree = "<group>"; };
+		DB19F60519B83DC100F96414 /* checkBoxActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxActive.png; sourceTree = "<group>"; };
+		DB19F60619B83DC100F96414 /* checkBoxActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBoxActive@2x.png"; sourceTree = "<group>"; };
+		DB19F60D19B846D900F96414 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		DB19F60E19B846D900F96414 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		DB19F60F19B846D900F96414 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		DB19F61319B84B2C00F96414 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DB19F61419B84B2C00F96414 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DB19F61519B84B2C00F96414 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DB236B1D1A09E7150070F15A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DB236B1E1A09E7150070F15A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DB236B1F1A09E7150070F15A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +132,17 @@
 		DB19F5A419B82C7300F96414 = {
 			isa = PBXGroup;
 			children = (
+				DB236B1D1A09E7150070F15A /* MainViewController.h */,
+				DB236B1E1A09E7150070F15A /* MainViewController.m */,
+				DB236B1F1A09E7150070F15A /* MainViewController.xib */,
+				DB19F61819B84B3400F96414 /* Home */,
+				DB19F61219B846E100F96414 /* ForgotPassword */,
+				DB19F60019B83B6600F96414 /* Login */,
+				DB19F5FA19B8380D00F96414 /* Gloabal */,
+				DB19F5F619B8351500F96414 /* TrimmedValidate */,
+				DB19F5F219B8310000F96414 /* KeyboardScroll */,
+				DB19F5E519B82D6B00F96414 /* Images */,
+				DB19F5E419B82D3D00F96414 /* SignUp */,
 				DB19F5B619B82C7300F96414 /* SignupLoginDemo */,
 				DB19F5CF19B82C7300F96414 /* SignupLoginDemoTests */,
 				DB19F5AF19B82C7300F96414 /* Frameworks */,
@@ -142,6 +208,91 @@
 				DB19F5D219B82C7300F96414 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB19F5E419B82D3D00F96414 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F5DF19B82C9500F96414 /* SignUpViewController.h */,
+				DB19F5E019B82C9500F96414 /* SignUpViewController.m */,
+				DB19F5E119B82C9500F96414 /* SignUpViewController.xib */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		DB19F5E519B82D6B00F96414 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F60119B83DC100F96414 /* checkBox-568h@2x.png */,
+				DB19F60219B83DC100F96414 /* checkBox.png */,
+				DB19F60319B83DC100F96414 /* checkBox@2x.png */,
+				DB19F60419B83DC100F96414 /* checkBoxActive-568h@2x.png */,
+				DB19F60519B83DC100F96414 /* checkBoxActive.png */,
+				DB19F60619B83DC100F96414 /* checkBoxActive@2x.png */,
+				DB19F5E619B82DD800F96414 /* textFeild-568h@2x.png */,
+				DB19F5E719B82DD800F96414 /* textFeild.png */,
+				DB19F5E819B82DD800F96414 /* textFeild@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DB19F5F219B8310000F96414 /* KeyboardScroll */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F5EC19B830FC00F96414 /* TPKeyboardAvoidingScrollView.h */,
+				DB19F5ED19B830FC00F96414 /* TPKeyboardAvoidingScrollView.m */,
+				DB19F5EE19B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				DB19F5EF19B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = KeyboardScroll;
+			sourceTree = "<group>";
+		};
+		DB19F5F619B8351500F96414 /* TrimmedValidate */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F5F419B8350F00F96414 /* Validate.m */,
+				DB19F5F319B8350F00F96414 /* Validate.h */,
+			);
+			name = TrimmedValidate;
+			sourceTree = "<group>";
+		};
+		DB19F5FA19B8380D00F96414 /* Gloabal */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F5F719B8380900F96414 /* Global.h */,
+				DB19F5F819B8380900F96414 /* Global.m */,
+			);
+			name = Gloabal;
+			sourceTree = "<group>";
+		};
+		DB19F60019B83B6600F96414 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F5FB19B83B5E00F96414 /* LoginViewController.h */,
+				DB19F5FC19B83B5E00F96414 /* LoginViewController.m */,
+				DB19F5FD19B83B5E00F96414 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		DB19F61219B846E100F96414 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F60D19B846D900F96414 /* ForgotPasswordViewController.h */,
+				DB19F60E19B846D900F96414 /* ForgotPasswordViewController.m */,
+				DB19F60F19B846D900F96414 /* ForgotPasswordViewController.xib */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		DB19F61819B84B3400F96414 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB19F61319B84B2C00F96414 /* HomeViewController.h */,
+				DB19F61419B84B2C00F96414 /* HomeViewController.m */,
+				DB19F61519B84B2C00F96414 /* HomeViewController.xib */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +370,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB19F60719B83DC100F96414 /* checkBox-568h@2x.png in Resources */,
 				DB19F5BB19B82C7300F96414 /* InfoPlist.strings in Resources */,
+				DB19F61719B84B2C00F96414 /* HomeViewController.xib in Resources */,
+				DB19F61119B846D900F96414 /* ForgotPasswordViewController.xib in Resources */,
+				DB19F60A19B83DC100F96414 /* checkBoxActive-568h@2x.png in Resources */,
+				DB19F60819B83DC100F96414 /* checkBox.png in Resources */,
+				DB236B211A09E7150070F15A /* MainViewController.xib in Resources */,
+				DB19F60C19B83DC100F96414 /* checkBoxActive@2x.png in Resources */,
+				DB19F5E319B82C9500F96414 /* SignUpViewController.xib in Resources */,
+				DB19F5EA19B82DD800F96414 /* textFeild.png in Resources */,
+				DB19F60919B83DC100F96414 /* checkBox@2x.png in Resources */,
 				DB19F5C319B82C7300F96414 /* Images.xcassets in Resources */,
+				DB19F60B19B83DC100F96414 /* checkBoxActive.png in Resources */,
+				DB19F5EB19B82DD800F96414 /* textFeild@2x.png in Resources */,
+				DB19F5FF19B83B5E00F96414 /* LoginViewController.xib in Resources */,
+				DB19F5E919B82DD800F96414 /* textFeild-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +404,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB19F5FE19B83B5E00F96414 /* LoginViewController.m in Sources */,
 				DB19F5C119B82C7300F96414 /* AppDelegate.m in Sources */,
+				DB19F5F019B830FC00F96414 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				DB19F61619B84B2C00F96414 /* HomeViewController.m in Sources */,
 				DB19F5BD19B82C7300F96414 /* main.m in Sources */,
+				DB19F5F919B8380900F96414 /* Global.m in Sources */,
+				DB19F5F519B8350F00F96414 /* Validate.m in Sources */,
+				DB19F61019B846D900F96414 /* ForgotPasswordViewController.m in Sources */,
+				DB19F5E219B82C9500F96414 /* SignUpViewController.m in Sources */,
+				DB236B201A09E7150070F15A /* MainViewController.m in Sources */,
+				DB19F5F119B830FC00F96414 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +611,7 @@
 				DB19F5DB19B82C7300F96414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB19F5DC19B82C7300F96414 /* Build configuration list for PBXNativeTarget "SignupLoginDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +620,7 @@
 				DB19F5DE19B82C7300F96414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

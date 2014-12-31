@@ -9,14 +9,18 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-
+@synthesize one,two;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    one=[[MainViewController alloc]init];
+    two=[[UINavigationController alloc]initWithRootViewController:one];
+    [self.window addSubview:two.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
